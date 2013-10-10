@@ -35,22 +35,21 @@ other = parseFloat(other);
 
 //Processing input to provide output 
 total = rent + food + utilities + other;					//total of all budget items
-percentage_rent = (rent * 100)/total;						//% of total that is rent
-percentage_food = (food * 100)/total;						//% of total that is food
-percentage_utilities = (utilities * 100)/total;				//% of total that is utilities
-percentage_other = (other * 100)/total;						//% of total that is all other expenses
+percentage_rent = rent/total * 100;							//% of total that is rent
+percentage_food = food/total * 100;							//% of total that is food
+percentage_utilities = utilities/total * 100;				//% of total that is utilities
+percentage_other = other/total * 100;						//% of total that is all other expenses
 
 //Output of data
 document.write("Your rent: $" + rent.toFixed(2) + BR);
 document.write("Your food: $" + food.toFixed(2) + BR);
 document.write("Your utilities: $" + utilities.toFixed(2) + BR);
-document.write("Your other expenses: $" + other.toFixed(2) + BR);
-document.write("The total of your monthly budget is: $" + total.toFixed(2) + LE + BR);
-//document.write("The rent percentage is:" + ES + rent_percentage.toFixed(1) + "%" + LE + BR);
-//document.write("The food percentage is:" + ES + food_percentage.toFixed(1) + "%" + LE + BR);
-//document.write("The utilities percentage is:" + ES + utilities_percentage.toFixed(1) + "%" + LE + BR);
-//document.write("The percentage for all other expenses is: " + ES + other_percentage.toFixed(1) + "%" + LE + BR);
-
+document.write("Your other expenses: $" + other.toFixed(2) + BR + BR);
+document.write("The total of your monthly budget is: $" + total.toFixed(2) + BR + BR);
+document.write("The rent percentage is:" + ES + percentage_rent.toFixed(1) + "%" + BR);
+document.write("The food percentage is:" + ES + percentage_food.toFixed(1) + "%" + BR);
+document.write("The utilities percentage is:" + ES + percentage_utilities.toFixed(1) + "%" + BR);
+document.write("The percenatage for all other expense is:" + ES + percentage_other.toFixed(1) + "%" + BR + BR);
 
 //Thank the user and end the program
-//document.write("Thank you for using our Budget Percentage Calculator!  Have a nice day!")
+document.write("Thank you for using our Budget Percentage Calculator!  Have a nice day!")
