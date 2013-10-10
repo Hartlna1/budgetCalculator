@@ -41,11 +41,11 @@ percentage_utilities = (utilities * 100)/total;				//% of total that is utilitie
 percentage_other = (other * 100)/total;						//% of total that is all other expenses
 
 //Output of data
-//document.write("Your rent: $" + rent.toFixed(2) + BR);
-//document.write("Your food: $" + food.toFixed(2) + BR);
-//document.write("Your utilities: $" + utiliites.toFixed(2) + BR);
-//document.write("Your other expenses: $" + other.toFixed(2) + BR);
-//document.write("The total of your monthly budget is: $" + total.toFixed(2) + LE + BR);
+document.write("Your rent: $" + rent.toFixed(2) + BR);
+document.write("Your food: $" + food.toFixed(2) + BR);
+document.write("Your utilities: $" + utilities.toFixed(2) + BR);
+document.write("Your other expenses: $" + other.toFixed(2) + BR);
+document.write("The total of your monthly budget is: $" + total.toFixed(2) + LE + BR);
 //document.write("The rent percentage is:" + ES + rent_percentage.toFixed(1) + "%" + LE + BR);
 //document.write("The food percentage is:" + ES + food_percentage.toFixed(1) + "%" + LE + BR);
 //document.write("The utilities percentage is:" + ES + utilities_percentage.toFixed(1) + "%" + LE + BR);
