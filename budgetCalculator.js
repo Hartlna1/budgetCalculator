@@ -6,7 +6,7 @@ Date: 			10/9/2013
 Description: 	Allows the user to input expenses for budget categories, and returns percentage of budget spent on each.
 */
 
-//declaration and instantiation of variables and constants
+/*//declaration and instantiation of variables and constants
 var BR = "<br />";						//HTML line break
 var ES = " ";							//HTML extra space
 var LE = ".";							//HTML line end
@@ -18,9 +18,10 @@ var total = 0.0;						//total expenses
 var percentage_rent = 0.0;				//percentage rent of total budget
 var percentage_food = 0.0;				//percentage food of total budget
 var percentage_utilites = 0.0;			//percentage utilities of total budget
-var percentage_other = 0.0;				//percentage of total budget for all other expenses		
+var percentage_other = 0.0;				//percentage of total budget for all other expenses		*/
 
 //Welcome the user to the program
+document.write("Welcome to the budget percentage calculator!  We will analyze your budget based on your rent, food, utilities, and all other expenses.");
 
 //Getting user input
 
