@@ -24,6 +24,14 @@ var percentage_other = 0.0;				//percentage of total budget for all other expens
 document.write("Welcome to the budget percentage calculator!  We will analyze your budget based on your rent, food, utilities, and all other expenses.");
 
 //Getting user input
+rent = prompt("What is your monthly rent payment?");
+parseFloat(rent);
+food = prompt("What are your monthly expenses on food?");
+parseFloat(food);
+utilities = prompt("What are your monthly expenses on utilities?");
+parseFloat(utilities);
+other = prompt("What are the montly expenses on all other items?");
+parseFloat(other);
 
 //Processing input to provide output 
 
